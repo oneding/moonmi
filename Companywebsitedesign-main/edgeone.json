@@ -1,6 +1,0 @@
-{
-  "outputDirectory": "./build",
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "nodeVersion": "22.11.0"
-}
