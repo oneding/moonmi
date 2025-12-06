@@ -1,6 +1,8 @@
 import { motion } from 'motion/react';
 import gaccover from '@assets/cases/gac/gac_02.jpg';
 import icarcover from '@assets/cases/icar/icar_02.jpg';
+import beautycover from '@assets/cases/beauty/beauty_cover.jpg';
+import fintechcover from '@assets/cases/fintech/fintech_cover.jpg';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const translations = {
@@ -24,13 +26,13 @@ const translations = {
         title: '美妆国际化',
         subtitle: '跨境电商增长',
         category: '美妆 / 电商',
-        image: 'https://images.unsplash.com/photo-1623882213146-e60f8b9e8875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3NtZXRpY3MlMjBiZWF1dHklMjBwcm9kdWN0c3xlbnwxfHx8fDE3NjM2OTQwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: beautycover
       },
       {
         title: '金融科技',
         subtitle: '品牌重塑',
         category: '金融 / 品牌设计',
-        image: 'https://images.unsplash.com/photo-1651176118867-f4ac0b1d6da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0cmFkaW5nJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY0MTE2NXww&ixlib=rb-4.1.0&q=80&w=1080'
+        image: fintechcover
       }
     ]
   },
@@ -39,28 +41,28 @@ const translations = {
     viewProject: 'View Project',
     cases: [
       {
-        title: 'GAC Motor',
+        title: 'GAC Trumpchi',
         subtitle: 'Global Market Strategy',
         category: 'Automotive / Brand Strategy',
-        image: 'https://images.unsplash.com/photo-1705747401901-28363172fe7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBzaG93cm9vbXxlbnwxfHx8fDE3NjM2OTIyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: gaccover
       },
       {
-        title: 'Tech Brand Expansion',
+        title: 'iCar',
         subtitle: 'Digital Marketing Innovation',
-        category: 'Technology / Digital Marketing',
-        image: 'https://images.unsplash.com/photo-1763541398528-83c5bf720883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM2Mjk4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        category: 'Automotive / Digital Marketing',
+        image: icarcover
       },
       {
         title: 'Beauty International',
         subtitle: 'E-commerce Growth',
         category: 'Beauty / E-commerce',
-        image: 'https://images.unsplash.com/photo-1623882213146-e60f8b9e8875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3NtZXRpY3MlMjBiZWF1dHklMjBwcm9kdWN0c3xlbnwxfHx8fDE3NjM2OTQwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: beautycover
       },
       {
         title: 'FinTech',
         subtitle: 'Brand Transformation',
         category: 'Finance / Brand Design',
-        image: 'https://images.unsplash.com/photo-1651176118867-f4ac0b1d6da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0cmFkaW5nJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY0MTE2NXww&ixlib=rb-4.1.0&q=80&w=1080'
+        image: fintechcover
       }
     ]
   },
@@ -69,28 +71,28 @@ const translations = {
     viewProject: 'Voir le Projet',
     cases: [
       {
-        title: 'GAC Motor',
+        title: 'GAC Trumpchi',
         subtitle: 'Stratégie de Marché Mondial',
         category: 'Automobile / Stratégie de Marque',
-        image: 'https://images.unsplash.com/photo-1705747401901-28363172fe7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBzaG93cm9vbXxlbnwxfHx8fDE3NjM2OTIyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: gaccover
       },
       {
-        title: 'Expansion Marque Tech',
+        title: 'iCar',
         subtitle: 'Innovation Marketing Digital',
-        category: 'Technologie / Marketing Digital',
-        image: 'https://images.unsplash.com/photo-1763541398528-83c5bf720883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM2Mjk4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        category: 'Automobile / Marketing Digital',
+        image: icarcover
       },
       {
         title: 'Beauté International',
         subtitle: 'Croissance E-commerce',
         category: 'Beauté / E-commerce',
-        image: 'https://images.unsplash.com/photo-1623882213146-e60f8b9e8875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3NtZXRpY3MlMjBiZWF1dHklMjBwcm9kdWN0c3xlbnwxfHx8fDE3NjM2OTQwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: beautycover
       },
       {
         title: 'FinTech',
         subtitle: 'Transformation de Marque',
         category: 'Finance / Design de Marque',
-        image: 'https://images.unsplash.com/photo-1651176118867-f4ac0b1d6da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0cmFkaW5nJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY0MTE2NXww&ixlib=rb-4.1.0&q=80&w=1080'
+        image: fintechcover
       }
     ]
   },
@@ -99,28 +101,28 @@ const translations = {
     viewProject: 'Ver Proyecto',
     cases: [
       {
-        title: 'GAC Motor',
+        title: 'GAC Trumpchi',
         subtitle: 'Estrategia de Mercado Global',
         category: 'Automotriz / Estrategia de Marca',
-        image: 'https://images.unsplash.com/photo-1705747401901-28363172fe7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBzaG93cm9vbXxlbnwxfHx8fDE3NjM2OTIyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: gaccover
       },
       {
-        title: 'Expansión Marca Tecnológica',
+        title: 'iCar',
         subtitle: 'Innovación en Marketing Digital',
-        category: 'Tecnología / Marketing Digital',
-        image: 'https://images.unsplash.com/photo-1763541398528-83c5bf720883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM2Mjk4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        category: 'Automoción / Marketing Digital',
+        image: icarcover
       },
       {
         title: 'Belleza Internacional',
         subtitle: 'Crecimiento E-commerce',
         category: 'Belleza / E-commerce',
-        image: 'https://images.unsplash.com/photo-1623882213146-e60f8b9e8875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3NtZXRpY3MlMjBiZWF1dHklMjBwcm9kdWN0c3xlbnwxfHx8fDE3NjM2OTQwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: beautycover
       },
       {
         title: 'FinTech',
         subtitle: 'Transformación de Marca',
         category: 'Finanzas / Diseño de Marca',
-        image: 'https://images.unsplash.com/photo-1651176118867-f4ac0b1d6da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0cmFkaW5nJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY0MTE2NXww&ixlib=rb-4.1.0&q=80&w=1080'
+        image: fintechcover
       }
     ]
   },
@@ -129,28 +131,28 @@ const translations = {
     viewProject: 'عرض المشروع',
     cases: [
       {
-        title: 'جاك موتور',
+        title: 'GAC Trumpchi',
         subtitle: 'استراتيجية السوق العالمية',
         category: 'سيارات / استراتيجية العلامة التجارية',
-        image: 'https://images.unsplash.com/photo-1705747401901-28363172fe7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBzaG93cm9vbXxlbnwxfHx8fDE3NjM2OTIyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: gaccover
       },
       {
-        title: 'توسع العلامة التقنية',
+        title: 'iCar',
         subtitle: 'ابتكار التسويق الرقمي',
-        category: 'تكنولوجيا / تسويق رقمي',
-        image: 'https://images.unsplash.com/photo-1763541398528-83c5bf720883?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjM2Mjk4Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        category: 'سيارات / تسويق رقمي',
+        image: icarcover
       },
       {
         title: 'الجمال الدولي',
         subtitle: 'نمو التجارة الإلكترونية',
         category: 'تجميل / تجارة إلكترونية',
-        image: 'https://images.unsplash.com/photo-1623882213146-e60f8b9e8875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3NtZXRpY3MlMjBiZWF1dHklMjBwcm9kdWN0c3xlbnwxfHx8fDE3NjM2OTQwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080'
+        image: beautycover
       },
       {
         title: 'التكنولوجيا المالية',
         subtitle: 'تحول العلامة التجارية',
         category: 'مالية / تصميم العلامة التجارية',
-        image: 'https://images.unsplash.com/photo-1651176118867-f4ac0b1d6da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0cmFkaW5nJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY0MTE2NXww&ixlib=rb-4.1.0&q=80&w=1080'
+        image: fintechcover
       }
     ]
   }

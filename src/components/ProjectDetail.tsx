@@ -22,6 +22,22 @@ import icarhero from '@assets/cases/icar/icar_hero.jpg';
 import { ArrowLeft, Calendar, Users, Target, TrendingUp } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
+import beautyhero from '@assets/cases/beauty/beauty_hero.jpg';
+import beauty01 from '@assets/cases/beauty/beauty_01.jpg';
+import beauty02 from '@assets/cases/beauty/beauty_02.jpg';
+import beauty03 from '@assets/cases/beauty/beauty_03.jpg';
+import beauty04 from '@assets/cases/beauty/beauty_04.jpg';
+import beauty05 from '@assets/cases/beauty/beauty_05.jpg';
+import beauty06 from '@assets/cases/beauty/beauty_06.jpg';
+import fintechhero from '@assets/cases/fintech/fintech_hero.jpg';
+import fintech01 from '@assets/cases/fintech/fintech_01.jpg';
+import fintech02 from '@assets/cases/fintech/fintech_02.jpg';
+import fintech03 from '@assets/cases/fintech/fintech_03.jpg';
+import fintech04 from '@assets/cases/fintech/fintech_04.jpg';
+import fintech05 from '@assets/cases/fintech/fintech_05.jpg';
+import fintech06 from '@assets/cases/fintech/fintech_06.jpg';
+import { ImageWithFallback } from './figma/ImageWithFallback';
+
 interface ProjectDetailProps {
   projectId: number;
   language: 'zh' | 'en' | 'fr' | 'es' | 'ar';
@@ -60,7 +76,7 @@ const projectsData = {
         ],
       services: ['品牌战略', '市场定位', '数字营销', '体验设计', '内容创作', '社交媒体'],
       testimonial: {
-        quote: '慕鸣团队对中国市场的深刻理解和创新思维，帮助我们成功实现了品牌年轻化转型。',
+        quote: '慕鸣团队的中国市场的深刻理解和创新思维，帮助我们成功实现了品牌年轻化转型。',
         author: 'GAC品牌市场总监',
         company: 'GAC Trumpchi'
       }
@@ -68,19 +84,19 @@ const projectsData = {
     {
       id: 1,
       title: 'iCar',
-      subtitle: '数字营销革新',
-      category: '汽车 / 数字营销',
+      subtitle: 'Digital Marketing Innovation',
+      category: 'Automotive / Digital Marketing',
       client: 'iCar',
       year: '2024',
-      duration: '8个月',
-      team: '12人',
+      duration: '8 Months',
+      team: '12 People',
       heroImage: icarhero,
-      challenge: '客户需要在欧洲市场建立品牌认知度，与路虎、牧马人等巨头竞争。缺乏本地化内容和有效的数字营销策略。',
-      solution: '我们制定了全方位的数字营销策略，包括社交媒体营销、KOL合作、内容营销和精准广告投放。通过数据分析优化每个触点，实现高效转化。',
+      challenge: 'The client needed to establish brand awareness in the European market, competing with giants like Land Rover and Wrangler. Lacking localized content and effective digital marketing strategies.',
+      solution: 'We developed a comprehensive digital marketing strategy including social media marketing, KOL partnerships, content marketing, and precision advertising. Optimizing every touchpoint through data analysis for efficient conversion.',
       results: [
-        { metric: '网站流量增长', value: '320%', icon: TrendingUp },
-        { metric: '社交媒体粉丝', value: '500K+', icon: Users },
-        { metric: '销售转化率', value: '12.5%', icon: Target },
+        { metric: 'Website Traffic Growth', value: '320%', icon: TrendingUp },
+        { metric: 'Social Media Followers', value: '500K+', icon: Users },
+        { metric: 'Sales Conversion Rate', value: '12.5%', icon: Target },
       ],
       images: [
           icar01,
@@ -92,7 +108,7 @@ const projectsData = {
           icar07,
           icar08,
          ],
-      services: ['数字策略', '社交媒体', 'KOL营销', '内容创作', 'SEO优化', '数据分析'],
+      services: ['Digital Strategy', 'Social Media', 'KOL Marketing', 'Content Creation', 'SEO Optimization', 'Data Analytics'],
       testimonial: {
         quote: '与慕鸣的合作让我们的海外市场拓展事半功倍，他们的专业性和执行力令人印象深刻。',
         author: 'iCar海外市场负责人',
@@ -101,58 +117,66 @@ const projectsData = {
     },
     {
       id: 2,
-      title: '美妆国际化',
-      subtitle: '跨境电商增长',
-      category: '美妆 / 电商',
-      client: '某国内美妆品牌',
+      title: 'Beauty International',
+      subtitle: 'Cross-border E-commerce Growth',
+      category: 'Beauty / E-commerce',
+      client: 'Domestic Beauty Brand',
       year: '2023',
-      duration: '10个月',
-      team: '18人',
-      heroImage: 'https://images.unsplash.com/photo-1623882213146-e60f8b9e8875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3NtZXRpY3MlMjBiZWF1dHklMjBwcm9kdWN0c3xlbnwxfHx8fDE3NjM2OTQwMTl8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      challenge: '客户希望将产品推向东南亚市场，但缺乏跨境电商经验和本地化运营能力。需要建立完整的线上销售体系。',
-      solution: '我们为客户搭建了多平台电商体系，包括独立站和第三方平台。通过精准的用户画像和个性化营销，结合网红营销和直播带货，快速建立市场影响力。',
+      duration: '10 Months',
+      team: '18 People',
+      heroImage: beautyhero,
+      challenge: 'The client wanted to expand into Southeast Asian markets but lacked cross-border e-commerce experience and localized operations. Needed to establish a complete online sales system.',
+      solution: 'We built a multi-platform e-commerce system including independent sites and third-party platforms. Through precise user profiling and personalized marketing, combined with influencer marketing and live streaming, we quickly established market presence.',
       results: [
-        { metric: '跨境销售额', value: '2.8M', icon: TrendingUp },
-        { metric: '新增客户', value: '15万+', icon: Users },
-        { metric: '复购率', value: '68%', icon: Target },
+        { metric: 'Cross-border Sales', value: '$2.8M', icon: TrendingUp },
+        { metric: 'New Customers', value: '150K+', icon: Users },
+        { metric: 'Repeat Purchase Rate', value: '68%', icon: Target },
       ],
       images: [
-        'https://images.unsplash.com/photo-1655568561429-2da330af5442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWF1dHklMjBwcm9kdWN0JTIwcGFja2FnaW5nfGVufDF8fHx8MTc2MzcwNjEzNnww&ixlib=rb-4.1.0&q=80&w=1080',
-        'https://images.unsplash.com/photo-1740805134242-876087bb56eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3NtZXRpY3MlMjBzdG9yZSUyMGRpc3BsYXl8ZW58MXx8fHwxNzYzNzczMTc3fDA&ixlib=rb-4.1.0&q=80&w=1080',
-      ],
-      services: ['电商策略', '平台运营', '视觉设计', '网红营销', '客户服务', '物流优化'],
+          beauty01,
+          beauty02,
+          beauty03,
+          beauty04,
+          beauty05,
+          beauty06,
+         ],
+      services: ['E-commerce Strategy', 'Platform Operations', 'Visual Design', 'Influencer Marketing', 'Customer Service', 'Logistics Optimization'],
       testimonial: {
-        quote: '慕鸣不仅帮我们打开了海外市场，更重要的是建立了一套可持续的运营体系。',
-        author: '电商总监',
-        company: '某国内美妆品牌'
+        quote: 'Moonmi not only helped us open overseas markets, but more importantly established a sustainable operating system.',
+        author: 'E-commerce Director',
+        company: 'Domestic Beauty Brand'
       }
     },
     {
       id: 3,
-      title: '金融科技',
-      subtitle: '品牌重塑',
-      category: '金融 / 品牌设计',
-      client: '某互联网金融平台',
+      title: 'FinTech',
+      subtitle: 'Brand Transformation',
+      category: 'Finance / Brand Design',
+      client: 'Internet Finance Platform',
       year: '2023',
-      duration: '6个月',
-      team: '10人',
-      heroImage: 'https://images.unsplash.com/photo-1651176118867-f4ac0b1d6da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0cmFkaW5nJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY0MTE2NXww&ixlib=rb-4.1.0&q=80&w=1080',
-      challenge: '在监管趋严的环境下，客户需要重塑品牌形象，从"互联网金融"转型为"金融科技"，提升用户信任度和合规性。',
-      solution: '我们为客户设计了全新的品牌视觉系统，强调安全、专业和创新。同时优化产品体验，简化操作流程，提升用户信任感。通过内容营销传递专业价值。',
+      duration: '6 Months',
+      team: '10 People',
+      heroImage: fintechhero,
+      challenge: 'In an increasingly regulated environment, the client needed to reshape their brand image, transforming from "Internet Finance" to "FinTech," enhancing user trust and compliance.',
+      solution: 'We designed a new brand visual system emphasizing security, professionalism, and innovation. We also optimized product experience, simplified workflows, and enhanced user trust through content marketing conveying professional value.',
       results: [
-        { metric: '品牌信任度', value: '+92%', icon: TrendingUp },
-        { metric: '活跃用户', value: '200万', icon: Users },
-        { metric: '用户留存率', value: '85%', icon: Target },
+        { metric: 'Brand Trust', value: '+92%', icon: TrendingUp },
+        { metric: 'Active Users', value: '2M', icon: Users },
+        { metric: 'User Retention', value: '85%', icon: Target },
       ],
       images: [
-        'https://images.unsplash.com/photo-1758611974022-ca3182694951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBiYW5raW5nJTIwYXBwfGVufDF8fHx8MTc2Mzc1MzY3MHww&ixlib=rb-4.1.0&q=80&w=1080',
-        'https://images.unsplash.com/photo-1733503747506-773e56e4078f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0ZWNobm9sb2d5JTIwd29ya3NwYWNlfGVufDF8fHx8MTc2Mzc3MzE3N3ww&ixlib=rb-4.1.0&q=80&w=1080',
-      ],
-      services: ['品牌重塑', 'UI/UX设计', '视觉系统', '内容策略', '用户研究', '合规咨询'],
+          fintech01,
+          fintech02,
+          fintech03,
+          fintech04,
+          fintech05,
+          fintech06,
+         ],
+      services: ['Brand Redesign', 'UI/UX Design', 'Visual System', 'Content Strategy', 'User Research', 'Compliance Consulting'],
       testimonial: {
-        quote: '品牌重塑后，我们的用户信任度显著提升，业务发展也更加稳健。',
-        author: '首席营销官',
-        company: '某互联网金融平台'
+        quote: 'After the brand transformation, our user trust significantly improved and business development became more stable.',
+        author: 'Chief Marketing Officer',
+        company: 'Internet Finance Platform'
       }
     }
   ],
@@ -166,7 +190,7 @@ const projectsData = {
       year: '2024',
       duration: '12 Months',
       team: '15 People',
-      heroImage: 'https://images.unsplash.com/photo-1705747401901-28363172fe7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjYXIlMjBzaG93cm9vbXxlbnwxfHx8fDE3NjM2OTIyNjd8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      heroImage: gachero,
       challenge: 'The client wanted to reposition their luxury automotive brand in the Chinese market, attracting younger high-net-worth individuals while maintaining traditional luxury image. Facing dual challenges of fierce market competition and changing consumer preferences.',
       solution: 'Through in-depth market research and user insights, we developed a new brand communication strategy. Combining digital marketing with offline experience centers, we created the "New Luxury" brand concept, emphasizing the perfect fusion of technology and tradition.',
       results: [
@@ -209,8 +233,8 @@ const projectsData = {
       services: ['Digital Strategy', 'Social Media', 'KOL Marketing', 'Content Creation', 'SEO Optimization', 'Data Analytics'],
       testimonial: {
         quote: 'Working with Moonmi made our overseas market expansion twice as effective. Their professionalism and execution were impressive.',
-        author: 'International Market Director',
-        company: 'Emerging Smartphone Brand'
+        author: 'iCar海外市场负责人',
+        company: 'iCar'
       }
     },
     {
@@ -242,33 +266,37 @@ const projectsData = {
       }
     },
     {
-      id: 3,
-      title: 'FinTech',
-      subtitle: 'Brand Transformation',
-      category: 'Finance / Brand Design',
-      client: 'Internet Finance Platform',
-      year: '2023',
-      duration: '6 Months',
-      team: '10 People',
-      heroImage: 'https://images.unsplash.com/photo-1651176118867-f4ac0b1d6da4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0cmFkaW5nJTIwb2ZmaWNlfGVufDF8fHx8MTc2MzY0MTE2NXww&ixlib=rb-4.1.0&q=80&w=1080',
-      challenge: 'In an increasingly regulated environment, the client needed to reshape their brand image, transforming from "Internet Finance" to "FinTech," enhancing user trust and compliance.',
-      solution: 'We designed a new brand visual system emphasizing security, professionalism, and innovation. We also optimized product experience, simplified workflows, and enhanced user trust through content marketing conveying professional value.',
-      results: [
-        { metric: 'Brand Trust', value: '+92%', icon: TrendingUp },
-        { metric: 'Active Users', value: '2M', icon: Users },
-        { metric: 'User Retention', value: '85%', icon: Target },
-      ],
-      images: [
-        'https://images.unsplash.com/photo-1758611974022-ca3182694951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBiYW5raW5nJTIwYXBwfGVufDF8fHx8MTc2Mzc1MzY3MHww&ixlib=rb-4.1.0&q=80&w=1080',
-        'https://images.unsplash.com/photo-1733503747506-773e56e4078f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjB0ZWNobm9sb2d5JTIwd29ya3NwYWNlfGVufDF8fHx8MTc2Mzc3MzE3N3ww&ixlib=rb-4.1.0&q=80&w=1080',
-      ],
-      services: ['Brand Redesign', 'UI/UX Design', 'Visual System', 'Content Strategy', 'User Research', 'Compliance Consulting'],
-      testimonial: {
-        quote: 'After the brand transformation, our user trust significantly improved and business development became more stable.',
-        author: 'Chief Marketing Officer',
-        company: 'Internet Finance Platform'
-      }
-    }
+          id: 3,
+          title: 'FinTech',
+          subtitle: 'Brand Transformation',
+          category: 'Finance / Brand Design',
+          client: 'Internet Finance Platform',
+          year: '2023',
+          duration: '6 Months',
+          team: '10 People',
+          heroImage: fintechhero,
+          challenge: 'In an increasingly regulated environment, the client needed to reshape their brand image, transforming from "Internet Finance" to "FinTech," enhancing user trust and compliance.',
+          solution: 'We designed a new brand visual system emphasizing security, professionalism, and innovation. We also optimized product experience, simplified workflows, and enhanced user trust through content marketing conveying professional value.',
+          results: [
+            { metric: 'Brand Trust', value: '+92%', icon: TrendingUp },
+            { metric: 'Active Users', value: '2M', icon: Users },
+            { metric: 'User Retention', value: '85%', icon: Target },
+          ],
+          images: [
+              fintech01,
+              fintech02,
+              fintech03,
+              fintech04,
+              fintech05,
+              fintech06,
+             ],
+          services: ['Brand Redesign', 'UI/UX Design', 'Visual System', 'Content Strategy', 'User Research', 'Compliance Consulting'],
+          testimonial: {
+            quote: 'After the brand transformation, our user trust significantly improved and business development became more stable.',
+            author: 'Chief Marketing Officer',
+            company: 'Internet Finance Platform'
+          }
+        }
   ]
 };
 
